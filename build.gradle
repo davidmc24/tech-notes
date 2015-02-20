@@ -6,9 +6,11 @@ buildscript {
         classpath "io.ratpack:ratpack-gradle:0.9.13"
     }
 }
+plugins {
+    id "idea"
+}
 
 apply plugin: "io.ratpack.ratpack-groovy"
-apply plugin: "idea"
 
 repositories {
     jcenter()
